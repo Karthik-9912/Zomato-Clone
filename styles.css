@@ -244,28 +244,75 @@ main p{
     height: 749px;
     margin-top: 300px;
     border: 2px solid;
+    /*this is also same --> background: linear-gradient(to bottom, rgba(284, 192, 228, 0.366), transparent); */
+    background: linear-gradient(0deg, #FFFFFF 0%, #FFEDEF 100%);
+    margin-top: 96px 0 0 0;
+    padding-top: 150px;
+    
 }
 .tot-container{
-    border: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.content{
-    border: 2px solid green;
+.sec2-content{
+    /* border: 2px solid green; */
     width: 1045.7px;
     height: 264px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 90px;
+    padding-top: 134px;
 }
-.content>h1{
-    border: 2px solid;
+.sec2-content h1{
+    /* border: 2px solid; */
     width: 784.3px;
     height: 144px;
     font-size: 64px;
+    text-align:center;
     color: #ef4f5f;
+}
+#sec2-main-p{
+    /* border: 2px solid; */
+    font-size: 24px;
+    color: #596378;
+    width: 435.73px;
+    height: 96px;
     text-align: center;
-    font-weight: 600;
+    margin-top: 35px;
+}
+
+.sec2-items{
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1024px;
+    height: 341.33px;
+}
+.sec2-left-items,.sec2-right-items{
+    border: 2px solid;
+    width: 325.33px;
+    height: 341.33px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sec2-left-items div,.sec2-right-items div{
+    border: 2px solid;
+
+    width: 113px;
+    height: 126px;
+}
+/* .sec2-left-items div>img,.sec2-right-items div>img{
+
+} */
+.sec2-items p{
+    color: #293142;
+    font-size: 14px;
+    text-align: center;
+    margin: 8.07px 0px;
+    padding: 0px 16px;
 }
