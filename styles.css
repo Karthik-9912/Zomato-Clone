@@ -243,7 +243,7 @@ main p{
 #sec2{
     height: 949px;
     margin-top: 300px;
-    border: 2px solid;
+    /* border: 2px solid; */
     /*this is also same --> background: linear-gradient(to bottom, rgba(284, 192, 228, 0.366), transparent); */
     background: linear-gradient(0deg, #FFFFFF 0%, #FFEDEF 100%);
     margin-top: 96px 0 0 0;
