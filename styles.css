@@ -482,3 +482,72 @@ main p{
     background-size: cover;
     transform: scaleY(-1);
 }
+
+.sec4{
+    height: 1052px;
+    /* border: 2px solid; */
+    margin-top: 30px;
+}
+.img-div{
+    /* border: 2px solid; */
+    text-align: center;
+} 
+.sec4-content{
+    /* border: 2px solid; */
+    text-align: center;
+    align-content: center;
+    height: 80px;
+    margin: 40px 0;
+}
+.sec4-content div{
+    font-size: 30px;
+    font-weight: 500;
+    color: #596378;
+}
+.cards-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    width: 1480px;
+    height: 490px;
+    border: 2px solid;
+    margin: 32px 16px 192px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.cards .cards-layout{
+    width: 340px;
+    height: 492px;
+    border: 2px solid;
+}
+.cards-in{
+    border: 2px solid green;
+    width: 340px;
+    height: 492px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 40px;
+}
+.cards-in img{
+    border-radius: 30px;
+}
+.in-card-div{
+    height: 172px;
+    width: 200px;
+    border: 2px solid;
+    align-content: center;
+    text-align: center;
+}
+.in-card-div p{
+    color: #596378;
+    font-size: 16px;
+    height: 84px;
+    border: 2px solid;
+    text-align: center;
+}
